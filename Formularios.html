@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <h1>Formularios en HTML</h1>
+
+    <form action="pagina donde se va a enviar" method=""> <!--Usar post en metodo para ocultar informacion-->
+
+        <label for="nombre">Nombre</label><br>
+        <input type="text" name="nombre" id="nombre" required placeholder="Solo escribe nombre"><br>
+
+
+        <label for="nombre">Apellido</label><br>
+        <input type="text" name="apellido" id="apellido" required placeholder="Solo escribe apellido"><br>
+
+        <label for="password">Password</label><br>
+        <input type="password" name="password" id="password"><br>
+
+        <label for="genero">Genero</label><br>
+
+        <label for="femeninio">Femenino</label>
+        <input type="radio" name="genero" id="femeninio">
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="masculino"><br>
+
+        <label for="programa">Programa</label><br>
+        <select name="programa" id="programa">
+            <option value="10">Ingenieria de software</option>
+            <option value="20">Ingenieria de civil</option>
+            <option value="30">Ingenieria de agricola</option>
+        </select>
+
+        <label for="Vehiculo">Vehiculos</label><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label>
+
+        <label for="fechas">Fechas</label>
+        <input type="date" name="fechas" id="fechas">
+
+        <label for="observaciones">Observaciones</label>
+        <textarea name="observaciones" id="observaciones" cols="30" rows="10"></textarea>
+
+        <label for="cantidad">Cantidad</label>
+        <input type="number" id="cantidad" name="cantidad" max="10" min="1">
+
+
+        <input type="button" value="validar">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Resetear">
+
+
+    </form>
+
+</body>
+
+</html>
