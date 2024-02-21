@@ -1,0 +1,42 @@
+* {
+    margin: 10px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+}
+
+h1 {
+    background-color: aquamarine;
+}
+
+a {
+    font-weight: bold;
+    color: green;
+}
+
+#seccion1{
+    font-weight: bold;
+    color: red;
+}
+
+#seccion2{
+    font-weight: bold;
+    color: brown;
+}
+
+#seccion3{
+    font-weight: bold;
+    color: rgb(65, 5, 5);
+}
+
+.sangria {
+    padding-left: 50px;
+}
+
+h2, h3{
+    background-color: aqua;
+    border-left: solid blue 10px;
+    padding-left: 20px;
+}

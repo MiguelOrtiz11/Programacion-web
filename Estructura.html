@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/estructura.css">
     <title>Estructura</title>
 </head>
 
@@ -11,31 +12,32 @@
 
     <header>
         <h1>NOMBRE DE LA EMPRESA</h1>
-        <nav style="background-color: blue;">
-            <ul>
-                <li>Inicio</li>
-                <li>Pedidos</li>
-                <li>Contactos</li>
+        <nav>
+            <ul class="menu-hor">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Pedidos</a></li>
+                <li><a href="#">Contactos</a></li>
             </ul>
         </nav>
     </header>
 
-    <div style="display: flex;">
-        <section style="background-color: red;">
+
+    <div>   
+        <section>
 
             <article>
                 <h3>Nombre del producto 1</h3>
-                <p><img src="/media/download.png" style="width: 100px;">Descripcion del producto</p>
+                <p><img src="/media/download.png">Descripcion del producto</p>
             </article>
 
             <article>
                 <h3>Nombre del producto 2</h3>
-                <p><img src="/media/download.png" style="width: 100px;">Descripcion del producto</p>
+                <p><img src="/media/download.png">Descripcion del producto</p>
             </article>
 
             <article>
                 <h3>Nombre del producto 3</h3>
-                <p><img src="/media/download.png" style="width: 100px;">Descripcion del producto</p>
+                <p><img src="/media/download.png">Descripcion del producto</p>
             </article>
 
 
@@ -44,18 +46,17 @@
 
         </section>
 
-        <section style="background-color: yellow;">
-            <aside>
-                <img src="/media/foto.jpg" style="width: 200px;"><br>
-                <img src="/media/foto.jpg" style="width: 200px;"><br>
-                <img src="/media/foto.jpg" style="width: 200px;"><br>
-            </aside>
-        </section>
+        
+        <aside>
+            <img src="/media/foto.jpg"><br>
+            <img src="/media/foto.jpg"><br>
+            <img src="/media/foto.jpg"><br>
+        </aside>
 
     </div>
 
-    <footer style="background-color: green;">
-        <h2>Nonbre de la empresa</h2>
+    <footer>
+        <h2>Nombre de la empresa</h2>
         <h3>Direccion</h3>
         <h3>Telefono</h3>
     </footer>
